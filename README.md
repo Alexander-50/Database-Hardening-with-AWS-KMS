@@ -171,6 +171,7 @@ The user could access DynamoDB resources but could not decrypt encrypted records
 * Key policy updated
 
 **Result**
+<img width="1456" height="574" alt="image" src="https://github.com/user-attachments/assets/d144cb07-4d7a-4430-95be-b44d72d8ad96" />
 
 ✅ Successfully accessed encrypted data.
 
@@ -188,27 +189,6 @@ This verified that KMS Key Policies directly control decryption permissions.
 * Authorization Testing
 * Access Control Validation
 
----
-
-## 📸 Project Screenshots
-
-### KMS Key Creation
-
-![KMS Key](assets/kms-key.png)
-
-### DynamoDB Encryption Configuration
-
-![DynamoDB Encryption](assets/dynamodb-encryption.png)
-
-### Access Denied Validation
-
-![Access Denied](assets/access-denied.png)
-
-### KMS Key User Access
-
-![Key User Access](assets/key-user-access.png)
-
----
 
 ## 📚 Key Learnings
 
@@ -221,7 +201,7 @@ This verified that KMS Key Policies directly control decryption permissions.
 | Limited customization | Custom policies        |
 | Basic auditing        | Advanced auditing      |
 
-### Lessons Learned
+### Summary of learning
 
 * Encryption protects data confidentiality.
 * IAM controls access to resources.
@@ -264,11 +244,7 @@ database-hardening-with-aws-kms/
 ├── README.md
 ├── LICENSE
 │
-└── assets/
-    ├── kms-key.png
-    ├── dynamodb-encryption.png
-    ├── access-denied.png
-    └── key-user-access.png
+
 ```
 
 ---
